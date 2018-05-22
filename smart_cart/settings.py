@@ -1,5 +1,7 @@
 # Django settings for shopping_cart project.
 
+# This option lets you set whether your project is in debug mode or not. Set it "True" only for a
+# development project. It gives you more information about your project's error.
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -28,7 +30,7 @@ ALLOWED_HOSTS = []
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Asia/Kolkata'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -101,10 +103,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'shopping_cart.urls'
+ROOT_URLCONF = 'smart_cart.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'shopping_cart.wsgi.application'
+WSGI_APPLICATION = 'smart_cart.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
